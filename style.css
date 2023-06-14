@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+     font-family: sans-serif;
+}
+
+.tracker{
+    font-size: 14px;
+    border-collapse: collapse;
+    width: 600px;
+}
+.tracker th{
+    font-size: 1.15rem;
+    text-align: left;
+    font-weight: normal;
+    color: #ffffff;
+    background-color: #009578;
+}
+
+.tracker th,
+.tracker td {
+    padding: 0.75em;
+}
+
+.entries .tracker_row{
+    background-color: #eeeeee;
+}
+.entries,
+ .tracker_row:nth-child(odd){
+    background-color: #dddddd;
+}
+
+.tracker__date,
+.tracker__workout,
+.tracker__duration{
+    display: inline-block;
+    font-size: 1em;
+    height: 2.5em;
+    padding: 0.5em 0;
+    border: none;
+    outline: none;
+    background: none;
+}
+.tracker__duration{
+    width: 5em;
+    text-align: right;
+}
+
+.tracker_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: red;
+    font-size: 1.5em;
+    margin-left: 0.5em;
+
+}
+
+.tracker__row-add{
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    background-color: #ffffff;
+}
+
+ .tracker__row td{
+    text-align: right;
+ }
+
+  .tracker-add{
+    display: inline-block;
+    background-color: white;
+    color: green;
+    outline: none;
+    border: none;
+ }
